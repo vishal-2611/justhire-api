@@ -1,0 +1,30 @@
+{
+  "name": "justhire-api",
+  "version": "1.0.0",
+  "description": "JustHire API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon bin/www",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhruv479/justhire-api"
+  },
+  "keywords": [],
+  "author": "Dhruv",
+  "homepage": "https://github.com/dhruv479/justhire-api",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
